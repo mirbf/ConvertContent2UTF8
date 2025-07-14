@@ -28,7 +28,10 @@
       "Bash(git push:*)",
       "Bash(git tag:*)",
       "Bash(rm:*)",
-      "Bash(git config:*)"
+      "Bash(git config:*)",
+      "Bash(./create-release.sh:*)",
+      "Bash(GOPROXY=proxy.golang.org go list -m github.com/mirbf/ConvertContent2UTF8@v1.0.0)",
+      "Bash(git commit:*)"
     ],
     "deny": []
   }
