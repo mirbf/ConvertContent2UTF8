@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go mod init:*)",
+      "Bash(go get:*)",
+      "Bash(go list:*)",
+      "Bash(go test:*)",
+      "Bash(mkdir:*)",
+      "Bash(go run:*)",
+      "Bash(go mod:*)",
+      "Bash(mv:*)",
+      "Bash(go doc:*)",
+      "Bash(timeout 30 go run cmd/test/main.go)",
+      "Bash(gtimeout:*)",
+      "Bash(ls:*)",
+      "Bash(echo:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(find:*)",
+      "Bash(go build:*)",
+      "Bash(./converter:*)",
+      "Bash(chmod:*)",
+      "Bash(grep:*)",
+      "Bash(gofmt:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git tag:*)",
+      "Bash(rm:*)",
+      "Bash(git config:*)"
+    ],
+    "deny": []
+  }
+}
